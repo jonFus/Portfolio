@@ -3,6 +3,14 @@ div, h1, p, a {
 }
 p, a {
 	font-size: 1.2em;
+	
+}
+a:hover {
+    color: gray;
+}
+a {
+	text-decoration: none;
+	color: black;
 }
 span {
 	color: #FF9900
@@ -64,7 +72,7 @@ body {
 }
 #hagaibonator {
 	background: url("../Images/IMAG0356.jpg");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	background-position: center;
@@ -73,7 +81,7 @@ body {
 }
 #pou {
 	background: url("../Images/IMAG0531.jpg");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	background-position: center;
@@ -82,7 +90,7 @@ body {
 }
 #motor {
 	background: url("../Images/IMAG0736.jpg");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	background-position: center;
@@ -91,7 +99,7 @@ body {
 }
 #ultimate{
 	background: url("../Images/IMAG0778.jpg") 0px -132px;
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -99,10 +107,11 @@ body {
 }
 .hp-line li{
 	display: inline-block;
+
 }
 #bid-rail{
 	background: url("../Images/BID rail.jpg");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -111,7 +120,7 @@ body {
 }
 #stress_A {
 	background: url("../Images/stress_A.gif");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -121,7 +130,7 @@ body {
 }
 #robot {
 	background: url("../Images/040220101060.jpg");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	background-position: center;
@@ -131,7 +140,7 @@ body {
 #waste {
 	
 	background: url("../Images/et1140187_iso.jpg");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -143,7 +152,7 @@ body {
 #mold {
 	
 	background: url("../Images/IMG_6937.JPG");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -152,7 +161,7 @@ body {
 #assembly {
 	
 	background: url("../Images/IMG_8608.JPG");
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -161,7 +170,7 @@ body {
 #stroler {
 	
 	background: url("../Images/DSC01401.jpg") 0px -80px;
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -170,7 +179,7 @@ body {
 #tricycle{
 	background: url("../Images/DSC01411.jpg") 0px -80px;
 	background-repeat:no-repeat;
-	height: 270px;
+	height: 290px;
 	width: 400px;
 	background-size: cover;
 	z-index: -2;
@@ -187,15 +196,18 @@ body {
 .explanation {
   position: absolute;
   display: inline;
-  top: 150px;
+  top: 140px;
   left: 0px;
-  height: 120px;
+  height: 150px;
   width: 387px;
   color: #FFFFFF;
   z-index: 1;
   padding-left: 13px;
+  padding-top: -3px;
   background-color: rgba(0,0,0,0.5);
+  overflow: auto;
 }
+
 .resume {
 	width: 95%;
 	margin-left: 37px;
@@ -210,6 +222,12 @@ body {
 .contact li {
 	display: inline;
 	padding-right: 30px;
+}
+.anchor {
+	margin-bottom: 40px;
+	padding-top: 30px;
+	display: block;
+
 }
 /* {
 	outline: 1px solid red;
