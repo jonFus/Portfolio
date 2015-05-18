@@ -15,6 +15,11 @@ a {
 span {
 	color: #FF9900
 }
+span a{
+	text-decoration: none;
+	color: #FF9900;
+	font-size: 1em;
+}
 body {
 	margin: 0;
 }
@@ -58,14 +63,16 @@ body {
 	color: #000099;
 }
 
-.about {
+#about {
 	width: 95%;
 	margin: 93px auto 100px 37px;
+	padding-top: 50px;
 }
-.work {
+#work {
 	width: 95%;
 	margin-left: 37px;
 	margin-bottom: 150px;
+	padding-top: 50px;
 }
 .tamooz-line li{
 	display: inline-block;
@@ -184,6 +191,7 @@ body {
 	background-size: cover;
 	z-index: -2;
 	float: left;
+	background-repeat: no-repeat;
 }
 .pic {
 	background-repeat:no-repeat;
@@ -208,18 +216,20 @@ body {
   overflow: auto;
 }
 
-.resume {
+#resume {
 	width: 95%;
 	margin-left: 37px;
+	padding-top: 50px;
 }
-.contact {
+#contact {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	width: 95%;
 	margin-left: 37px;
+	padding-top: 50px;
 }
 
-.contact li {
+#contact li {
 	display: inline;
 	padding-right: 30px;
 }
